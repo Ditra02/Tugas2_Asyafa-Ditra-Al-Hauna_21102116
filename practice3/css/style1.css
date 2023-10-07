@@ -1,0 +1,26 @@
+#solid {
+    border-style: solid;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+h2 {
+    color: #00a2c6
+}
+
+h1,h3 {
+    color: #10009e
+}
+
+/* External Style Sheet merupakan berkas terpisah yang di dalamnya hanya terdapat sebuah rules. Berkas ini harus berekstensi .css,
+dan berkas ini nantinya dihubungkan pada dokumen HTML. Cara ini merupakan yang paling powerful dalam menerapkan styling. Karena dengan cara ini,
+satu berkas styling (.css) dapat digunakan oleh banyak berkas HTML. Untuk me-link-kan berkas .css dengan dokumen HTML,
+kita dapat gunakan elemen <link>pada <head>berkas HTML. */
